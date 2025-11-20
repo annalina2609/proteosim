@@ -14,7 +14,8 @@ dependencies = [
     "numpy",
     "pandas",
     "matplotlib",
-    "pyteomics"
+    "pyteomics",
+    "pytest"
 ]
 
 [tool.setuptools.packages.find]
