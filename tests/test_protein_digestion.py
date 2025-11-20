@@ -1,6 +1,7 @@
 # Test for Digest Protein Collection
 
 from proteosim.protein_digestion import digest_protein_collection
+from proteosim.protein_digestion import enzyme_cleavage_patterns
 
 def test_digest_protein_collection():
     dummy_proteins = {
