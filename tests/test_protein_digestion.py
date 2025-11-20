@@ -1,5 +1,7 @@
 # Test for Digest Protein Collection
 
+from proteosim.protein_digestion import digest_protein_collection
+
 def test_digest_protein_collection():
     dummy_proteins = {
         'DUMMY1': 'AGHIKOPIROLHGIEFTKL',
@@ -18,6 +20,8 @@ def test_digest_protein_collection():
     assert test_digested_peptides_map['DUMMY2'] == ['AGHJOIK','OLHGIEFTK', 'LIJEOP']
 
 # Test for Coverage Function
+
+from proteosim.protein_digestion import compute_sequence_coverage
 
 def test_compute_sequence_coverage():
     dummy_prot_seq = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' #Alphabet d.h. 26 Buchstaben
