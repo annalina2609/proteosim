@@ -1,5 +1,7 @@
 # Fuction for prediction of Liquid Chromatography Retention times from AS-Sequence
 
+from pyteomics import achrom
+
 def predict_lc_retention_times(peptides):
     """
     This function takes a list of peptide sequences and returns a dictionary mapping 
